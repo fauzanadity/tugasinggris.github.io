@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Our Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+</div>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>To Sir/Madam/To you all,</h4>
+        <h1>Maudy & Jesse</h1>
+        <p>Will hold a wedding reception in:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()"
+          >Click Invitation</a
+        >
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Our Wedding</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Our Wedding
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-center">
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Weddings</h2>
+            <h3>Will held on November 20, 2023 in Bandung, West Java.</h3>
+            <p>
+              In light of this, with all due respect, we would like to invite
+              Sir/Madam/To you all to attend our wedding ceremony.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Jesse Jiseok Choi</h3>
+                <p>
+                  Jesse Jiseok Choi is Maudy Ayunda's friend at Stanford
+                  University. Jesse was born on March 5, 1987, in Korea. Jesse
+                  Choi is a child of the Sang Sun Choi Family.
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/choi.png"
+                  alt="Sandhika Galih"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/faza.png"
+                  alt="Nofariza"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Maudy Ayunda</h3>
+                <p>
+                  Ayunda Faza Maudya, commonly known as Maudy Ayunda, was born
+                  on December 19, 1994, in Jakarta, Indonesia. Maudy Ayunda is
+                  the first child on the couple Didit Jasmedi and Mauren Mudjoko
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <div data-aos="fade-up">
+
+              <h2>Wedding Information</h2>
+              <p class="alamat">
+                Address: Gedung Kologdam, Kodiklat TNI AD. <br />
+                Jl. Aceh, Merdeka, Kec. Sumur Bandung, Kota Bandung
+              </p>
+            </div>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.359732941108!2d107.616864!3d-6.9097349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e635c9284fc1%3A0x268bddf9bd0971c0!2sKologdam!5e0!3m2!1sen!2ssg!4v1693486483694!5m2!1sen!2ssg"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <a
+              href="https://goo.gl/maps/R9seweCadg9MNyox5"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Click to open Google Maps</a
+            >
+            <p class="description">
+              It is hoped that the address and date are not wrong. When you
+              arrive but there are no signs of it being implemented yet wedding,
+              maybe you have the wrong schedule, or the wrong place.
+            </p>
+          </div>
+        </div>
+        <div data-aos="fade-up">
+
+          <div class="row justify-content-center mt-4">
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light mb-5">
+                <div class="card-header">Marriage Contract</div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>08.00 AM - 10.00 AM</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar3 d-block"></i>
+                      <span>Sunday November 20, 2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  At the wedding solemnization ceremony, it is expected to
+                  maintain conducive to uphold the solemnity and reverence
+                  throughout the entire procession
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 col-10">
+              <div class="card text-center text-bg-light">
+                <div class="card-header">Wedding Reception</div>
+                <div class="card-body">
+                  <div class="row justify-content-center">
+                    <div class="col-md-6">
+                      <i class="bi bi-clock d-block"></i>
+                      <span>11.00 AM - Until End</span>
+                    </div>
+                    <div class="col-md-6">
+                      <i class="bi bi-calendar3 d-block"></i>
+                      <span>Sunday November 20, 2023</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  At the wedding solemnization ceremony, it is expected to
+                  maintain conducive to uphold the solemnity and reverence
+                  throughout the entire procession
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>How our love shines brightly</span>
+            <h2>Our Story</h2>
+            <p>
+              The most beuatiful journey in this story, from the first meeting
+              until the engagement.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <div data-aos="fade-right">
+
+                <li>
+                  <div
+                    class="timeline-image"
+                    style="background-image: url(img/Stanford.png)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>First Met</h3>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Maudy Ayunda first met Jesse Choi at his Collage. Jessen
+                        is Maudy's Best friend at Stanford University
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div data-aos="fade-left">
+
+                <li class="timeline-inverted">
+                  <div
+                    class="timeline-image"
+                    style="background-image: url(img/gradu.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Getting Serious</h3>
+                    </div>
+                    <div class="timeline-body">
+                      <p>
+                        Before graduating from Stanford University, they started
+                        getting serious and started planning to get married
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <div data-aos="fade-right">
+
+                <li>
+                  <div
+                    class="timeline-image"
+                    style="background-image: url(img/engagament.jpg)"
+                  ></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h3>Engaged</h3>
+                    </div>
+                    <div class="timeline-body">
+                      Maudy was proposed to by Jesse while they were on holiday
+                      together in Indonesia, to be precise at a waterfall, and it
+                      was at the waterfall that Maudy was proposed to
+                    </div>
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <div data-aos="fade-up">
+
+              <span>The Memories of our story</span>
+              <h2>Photos Gallery</h2>
+              <p>
+                The memories we captured lead to the most beautiful journey in
+                life.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in">
+
+          <div
+            class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+          >
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed1.jpg"
+                data-toggle="lightbox"
+                data-caption="M &  J 1"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed1.jpg"
+                  alt="M & J 1"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed2.jpg"
+                data-toggle="lightbox"
+                data-caption="M & J 2"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed2.jpg"
+                  alt="M & J 2"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed3.jpg"
+                data-toggle="lightbox"
+                data-caption="M & J 3"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed3.jpg"
+                  alt="M & J 3"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed4.jpg"
+                data-toggle="lightbox"
+                data-caption="M & J 4"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed4.jpg"
+                  alt="M & J 4"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed5.jpg"
+                data-toggle="lightbox"
+                data-caption="M & J 5"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed5.jpg"
+                  alt="M & J 5"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+            <div class="col mt-3">
+              <a
+                href="img/gallery/thumbnail/prewed6.jpg"
+                data-toggle="lightbox"
+                data-caption="Sandhika & Nofa 6"
+                data-gallery="mygallery"
+              >
+                <img
+                  src="img/gallery/thumbnail/prewed6.jpg"
+                  alt="Sandhika & Nofa 6"
+                  class="img-fluid w-100 rounded"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div data-aos="fade-down">
+
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <h2>Confirmation of Attendance</h2>
+              <p>Fill the form below to confirm attendance.</p>
+            </div>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbypu083esUCNOjttK-WZPaB_ZLQ3urvh63fALONovXcO18ElHUXXSXdqk6LC-D4UAuH/exec"
+          id="my-form"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Number of People</label>
+              <input
+                type="number"
+                class="form-control"
+                id="jumlah"
+                name="jumlah"
+                min="1"
+                max="5"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Confirm</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Select One</option>
+                <option value="Hadir">Present</option>
+                <option value="Tidak Hadir">Not Present</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div data-aos="fade-down">
+
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-10 text-center">
+              <span>expression of affection</span>
+              <h2>Send a Gifts</h2>
+              <p>
+                We deeply appreciate every gifts that you, Sir/Madam, and all of
+                you have given.
+              </p>
+            </div>
+          </div>
+  
+          <div class="row justify-content-center text-center">
+            <div class="col-md-6">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="fw-bold">BCA</div>
+                  1393906158 - FAUZAN ADITYA RAMADHAN
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">BRI</div>
+                  987654321 - GALIH
+                </li>
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/LAGU.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2023, // required
+        month: 11, // required
+        day: 20, // required
+        hours: 8, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "day", plural: "days" },
+          hours: { singular: "hour", plural: "hours" },
+          minutes: { singular: "minute", plural: "minutes" },
+          seconds: { singular: "second", plural: "seconds" },
+        },
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const audioIcon = document.querySelector(".audio-icon-wrapper i");
+      const song = document.querySelector("#song");
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        // localStorage.setItem('opened', 'true');
+        playAudio();
+      }
+
+      function playAudio() {
+        song.volume = 0.1;
+        audioIconWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.remove("bi-disc");
+          audioIcon.classList.add("bi-pause-circle");
+        } else {
+          song.play();
+          audioIcon.classList.add("bi-disc");
+          audioIcon.classList.remove("bi-pause-circle");
+        }
+
+        isPlaying = !isPlaying;
+      };
+
+      // if (!localStorage.getItem('opened')) {
+      //   disableScroll();
+      // }
+      disableScroll();
+    </script>
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Succses!");
+          });
+        });
+      });
+    </script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get("n") || "";
+      const pronoun = urlParams.get("p") || "Bapak/Ibu/Saudara/i";
+      const namaContainer = document.querySelector(".hero h4 span");
+      namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
+
+      document.querySelector("#nama").value = nama;
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
